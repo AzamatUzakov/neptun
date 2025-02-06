@@ -392,6 +392,9 @@ hr {
   border: none;
   background-color: #cacaca;
 }
+.telephon{
+  margin-bottom: 30px;
+}
 
 .bottomFooter {
   display: flex;
