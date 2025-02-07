@@ -388,11 +388,11 @@ input[type="email"] {
 }
 hr {
   margin-top: 50px;
-  height: 1px; 
+  height: 1px;
   border: none;
   background-color: #cacaca;
 }
-.telephon{
+.telephon {
   margin-bottom: 30px;
 }
 
@@ -402,11 +402,13 @@ hr {
   justify-content: space-between;
 
   margin-top: 30px;
-margin-bottom: 30px;
+  margin-bottom: 30px;
   font-size: 16px;
   font-weight: 400;
-color: #5E5E5E;
+  color: #5e5e5e;
 }
+
+
 @media (max-width: 850px) {
   .main_container {
     padding: 0 20px;
@@ -427,6 +429,9 @@ color: #5E5E5E;
   }
   .telTxt {
     display: none;
+  }
+  .bottomFooter {
+    font-size: 14px;
   }
 }
 
@@ -470,7 +475,14 @@ color: #5E5E5E;
     height: 100%;
     padding: 10px;
   }
-
+  .bottomFooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 10px;
+  }
   .SecondSection .item {
     display: flex;
     justify-content: center;
@@ -496,7 +508,7 @@ color: #5E5E5E;
     object-fit: cover;
   }
   .header {
-    padding: 10px 7px;
+    padding: 10px 10px 10px 0;
   }
   .flex_footer {
     display: flex;
